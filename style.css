@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "bold";
+    src: url(./static/dafont/Roboto/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./static/dafont/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "generaltaoreg";
+    src: url(./static/dafont/cf-general-tao/CFGeneralTao-Regular.ttf) format("truetype");
+}
+
+
+#headerbackground {
+    background-image: url(./static/image/fond\ header.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headermenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: "generaltaoreg";
+    color: #d9cede;
+    font-size: 30px;
+}
+
+#navheader {
+    height: 100px;
+    width: 900px;
+}
+
+#headerseoul {
+    display: flex;
+    height: 190px;
+    width: 190px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.headerli {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    color: #d9cede;
+    height: 250px;
+    width: 800px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: "bold";
+
+}
+
+#headerbackslo {
+    background-color: #fff;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 830px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+body {
+    margin: 0%;
+}
+
+#headerblack {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+#headerlogo {
+    display: flex;
+}
+
+#headernav {
+    margin-left: 8%;
+}
+
+#preheader {
+    line-height: 0px;
+    margin-top: 40px;
+}
+
+#vertheader {
+    color: #3b5823;
+}
+
+#chez {
+    padding-left: 40px;
+}
+
+#spacing {
+    word-spacing: -30px;
+}
+
+#menudepd {
+    text-decoration: none;
+}
